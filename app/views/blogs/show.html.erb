@@ -1,0 +1,20 @@
+<div class = "blog-show-wrapper">
+  <div class = "blog-show-text">
+    <h2>
+      <%= @blog.content %>
+    </h2>
+    <h3>
+      <%= simple_format(@blog.sentence)%>
+    </h3>
+  </div>
+  <div class="blogs-show-item">
+    <img src="<%= "/blog_sheets/#{@blog.sheet_name}" %>">
+    <p>
+      <% if @current_paper %>
+      <%= @blog.created_at %>
+      <%= link_to("編集", "/blogs/#{@blog.id}/edit") %>
+      <%= link_to("削除", "/blogs/#{@blog.id}/destroy", {method: "blog"}) %>
+      <% end %>
+    </p>
+  </div>
+</div>

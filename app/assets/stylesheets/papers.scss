@@ -1,0 +1,41 @@
+// Place all the styles related to the papers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* papers/index ================================ */
+
+
+
+
+.blogs-right{
+  float:left;
+  position: relative;
+  left:60px;
+  padding: 50px;
+  position: relative;
+  top: 70px;
+}
+
+.blogs-right img {
+  width: 350px;
+  height: 300px;
+  box-shadow: 0 2px 6px #c1ced7;
+  object-fit: cover;
+
+}
+
+.txt-box{
+  height: 80px;
+  background-color: white;
+}
+
+.blogs-right p{
+  width: 300px;
+  position: relative;
+  left:20px;
+}
+
+
+.paper-right-color{
+background-color: rgba(255, 255, 255, 0.5);
+
+}

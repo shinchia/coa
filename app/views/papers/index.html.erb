@@ -1,0 +1,17 @@
+<div class="top-wrapper">
+<div class="main users-index">
+  <div class="container">
+    <h1 class="users-heading">Users</h1>
+    <% @papers.each do |paper| %>
+      <div class="users-index-item">
+        <div class="user-left">
+          <img src="<%= "/paper_images/#{paper.image_name}" %>">
+        </div>
+        <div class="user-right">
+          <%= link_to(paper.name, "/papers/#{paper.id}") %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+</div>

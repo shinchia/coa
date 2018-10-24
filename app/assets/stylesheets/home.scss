@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS';
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background-image: url("/plane-1632598.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 200px 0 500px 0;
+  color: white;
+  text-align: center;
+  background-color: rgba(1, 1, 1, 0.5)
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+  position: relative;
+  left: 70px;
+}
+
+.twitter {
+  background-color: #55acee;
+  position: relative;
+  left: 70px;
+}
+
+.ivent {
+  background-color: rgba(255,255,255,0.7);
+  position: relative;
+  top:50px;right: 120px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 64px;
+  position:fixed;
+  top:0px;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.5)
+
+}
+
+.header-logo {
+  float: left;
+  padding-left: px;
+  color: white;
+  font-size: 22px;
+  line-height: 64px;
+}
+
+.header-logo a{
+  color: white;
+  font-size: 22px;
+}
+
+.header-menus {
+  float: right;
+  padding-right: 20px;
+}
+
+.header-menus li {
+  float: left;
+  line-height: 64px;
+  font-size: 13px;
+  color: white;
+  padding-left: 90px ;
+}
+
+.header-menus a {
+  font-size: 13px;
+  color: white;
+}
+
+.header-menus .fa {
+  padding-right: 5px;
+}
+
+.header-menus input[type="submit"] {
+  padding: 0 20px;
+  float: left;
+  line-height: 64px;
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  text-align: center;
+
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: rgba(1, 1, 1, 1);;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon img{
+  height: 130px;
+  position: relative;
+  top: 20px;left:500px;
+}
+
+.lesson-icon p {
+  width: 100%;
+  color:black;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: rgba(1, 1, 1, 1);
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.lesson-icon p{
+  position: absolute;
+  top:22px;
+}
+
+.flash {
+  padding: 10px 0;
+  color: white;
+  background: rgb(251, 170, 88);
+  text-align: center;
+  position: absolute;
+  top: 64px;
+  z-index: 10;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+  font-size: 14px;
+}
+
+.home-message {
+
+  position: absolute;
+  top:150px;left:100px;
+  float: left;
+}
+
+.home-message img{
+  height: 300px;width: 450px;
+}
+
+.home-message p{
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+
+}
+
+.home-message h2{
+  color: white;
+  text-align: center;
+}
+
+
+.home-sentence{
+  position: absolute;
+  top:100px;right: 20px;
+}
+
+.home-sentence h2{
+  color :white;
+  text-align: center;
+  background-color: rgba(1,1,1,0.5);
+}
+
+.home-sentence h3{
+  background-color: rgba(255,255,255,0.5);
+  width: 850px;
+}
+
+.text-line{
+  background-color: rgba(255,255,255,0.5);
+  width: 1150px;
+}
+
+.header-logo img{
+  height: 70px;width: 300px;
+
+}

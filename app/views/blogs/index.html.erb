@@ -1,0 +1,17 @@
+<div class="blogs-wrapper">
+  <div class="heading">
+    <% @blogs.each do |blog| %>
+    <div class="blogs-right">
+      <img src="<%= "/blog_sheets/#{blog.sheet_name}" %>">
+      <div class = "txt-box">
+        <p><%= link_to(blog.content, "/blogs/#{blog.id}") %></p>
+      </div>
+    </div>
+    <% end %>
+    <div class = "blogs-login">
+      <h5>  <%= link_to("-", "/papers/login") %></h5>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+</div>

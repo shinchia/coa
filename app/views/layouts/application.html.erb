@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COA</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+  <header>
+    <div class ="Blogs-menus">
+      <% if @current_paper %>
+      <li><%= link_to(@current_paper.name, "/papers/#{@current_paper.id}") %></li>
+        <li><%= link_to("投稿一覧", "/blogs/index") %></li>
+        <li><%= link_to("新規投稿", "/blogs/new") %></li>
+        <li><%= link_to("権限付与", "/papers/signup") %></li>
+        <li><%= link_to("権限一覧", "/papers/index") %></li>
+        <li><%= link_to("ログアウト", "/papers/logout", {method: :post}) %></li>
+        <% end %>
+      </div>
+      <% if @current_user %>
+      <%= link_to("COA clab", "/top") %>
+      <% else %>
+      <div class="header-logo">
+        <a href="/top"><<img src="/ロゴ＋文字1列.png"  alt="トップへ戻る" /></a>
+      </div>
+      <% end %>
+    </div>
+    <div class="header-menus">
+      <% if @current_user %>
+      <li><%= link_to(@current_user.name, "/users/#{@current_user.id}") %></li>
+      <li><%= link_to("投稿一覧", "/posts/index") %></li>
+      <li><%= link_to("新規投稿", "/posts/new") %></li>
+      <li><%= link_to("ユーザー一覧", "/users/index") %></li>
+      <li><%= link_to("ログアウト", "/users/logout", {method: :post}) %></li>
+      <% else %>
+      <li><%= link_to("COAとは", "/home/coa") %></li>
+      <li><%= link_to("Blog", "/blogs/index") %></li>
+      <li><%= link_to("Our Project", "/home/service") %></li>
+      <li><%= link_to("contact", "/inquiries/index") %></li>
+      <li><%= link_to("message", "/home/message") %></li>
+      <li><%= link_to("新規登録", "/users/signup") %></li>
+      <li><%= link_to("ログイン", "/users/login") %></li>
+      <% end %>
+    </ul>
+  </header>
+  <% if flash[:notice] %>
+  <div class="flash">
+    <%= flash[:notice] %>
+  </div>
+  <% end %>
+  <%= yield %>
+  <div class="clear"></div>
+  <footer>
+    <div class="container">
+      <a href="/top"><<img src="/ロゴ＋文字1列.png"  alt="トップへ戻る" /></a>
+      <p>We bring you a place to build lasting business relationships.</p>
+    </div>
+  </footer>

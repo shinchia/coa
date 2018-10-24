@@ -1,0 +1,194 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.blog-right{
+
+  float:left;
+  position: relative;
+  left:60px;
+  padding: 50px;
+  position: relative;
+  bottom: 100px;
+}
+
+.blog-right img {
+  width: 350px;
+  height: 300px;
+  box-shadow: 0 2px 6px #c1ced7;
+  object-fit: cover;
+
+}
+
+.txt-box{
+  height: 80px;
+  background-color: white;
+}
+
+.blog-right p{
+  width: 300px;
+  position: relative;
+  left:20px;
+}
+
+
+.blog-right-color{
+background-color: rgba(255, 255, 255, 0.5);
+
+}
+.blogs-show-item{
+  position:absolute;
+  bottom: 90px;left:700px;
+
+}
+.blogs-show-item img{
+  height: 500px;width: 700px;
+  position: relative;
+  bottom:50px;right: 0px;
+
+
+
+}
+.blog-show-text{
+  position: relative;
+  top:130px;left:40px;
+
+
+}
+.blog-show-text h2 {
+width:600px;
+color: white;
+text-align: center;
+background-color: rgba(1,1,1,0.3)
+
+}
+
+.blog-show-text h3 {
+width:600px;
+color: white;
+background-color: rgba(1,1,1,0.3)
+
+
+}
+.text-box h3 {
+position: absolute;
+right: 100px;
+width:600px;
+text-align: left;
+
+.blogs-show-item li{
+  position: absolute;
+  top: 100px;
+
+}
+
+
+}
+
+.blogs-login h5{
+  position: absolute;
+  top:100px;
+  color: white;
+
+}
+
+.title textarea {
+  font-size: 12px;
+  padding: 10px;
+  min-width: 300px;
+  border: 1px solid rgb(216, 218, 223);
+  resize: none;
+}
+
+.title textarea::-webkit-input-placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.sentence textarea {
+  font-size: 10px;
+  padding: 10px;
+  min-width: 800px;
+  border: 10px solid rgb(216, 1000, 223);
+  resize: none;
+  position: relative;
+  top:300px;
+
+}
+
+.sentence textarea::-webkit-input-placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.Blogs-logo a{
+  color: white;
+  font-size: 22px;
+}
+
+.Blogs-menus {
+  float: right;
+  padding-right: 20px;
+}
+
+.Blogs-menus li {
+  float: left;
+  line-height: 64px;
+  font-size: 13px;
+  color: white;
+  padding-left: 100px ;
+}
+
+.Blogs-menus a {
+  font-size: 13px;
+  color: white;
+}
+
+.blog-show-li li{
+  float: left;
+  line-height: 64px;
+  font-size: 13px;
+  color: white;
+  padding-left: 100px ;
+  position: relative;
+  bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.blog-paper{
+  position:relative;
+  top:100px;right:100px;
+}
+
+.wrapper {
+  padding: 200px 0 400px 0;
+  color: white;
+  text-align: center;
+  background-color: rgba(1, 1, 1, 0.5);}
+
+  .blog-index{
+    height: 1000px;
+  }
+
+.blogs-wrapper{
+  padding: 0 0 300px 0;
+  text-align: center;
+
+}
+
+.all-wrapper{
+  padding: 0 0 1400px 0;
+
+}
+
+.blog-show-wrapper{
+  padding: 0 0 600px 0;
+
+}
+
+.papers-wrapper{
+  padding: 200px 0 400px 0;
+  color: white;
+  text-align: center;
+  background-color: rgba(1, 1, 1, 0.5);}
