@@ -60,23 +60,21 @@
  }
 
  /* スマホ向けレイアウト */
- @media all and (max-width: 670px) {
+ @media all and (max-width: 700px) {
    .lesson {
      width: 100%;
    }
 
-   .btn {
-     width: 100%;
-   }
+
 
    .facebook {
      margin-bottom: 10px;
-     position: absolute;
-     left:10px;top:450px;
+
    }
 
    .top-wrapper {
-     text-align: left;
+     text-align: center;
+     padding: 200px 0 50px 0;
    }
 
    .header-menus {
@@ -97,5 +95,13 @@
 
    .top-wrapper img  {
      width:100%;
+
+
    }
+ }
+
+ .btn {
+   width: 90%;
+   margin: 10px;
+
  }
