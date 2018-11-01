@@ -59,19 +59,19 @@
  }
 
  /* スマホ向けレイアウト */
- @media all and (max-width: 700px) {
+ @media all and (max-width: 470px) {
    .lesson {
      width: 100%;
    }
 
-   body {
-     background-image: url("/plane-1632598.png");height: 100%;
-     background-size: cover;
-   }
 
-   .top-wrapper {
-     text-align: center;
-     padding: 20% 0 30% 0;
+   body {
+     margin: 0;
+     font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+     background-image: url("/plane-1632598.png");
+     background-attachment: fixed;
+     background-size: cover;
+
 
    }
 
@@ -79,9 +79,7 @@
      display: none;
    }
 
-   .menu-icon {
-     display: block;
-   }
+
 
    .top-wrapper  {
      font-size: 10px;
@@ -91,15 +89,11 @@
      font-size: 14px;
    }
 
-   .top-wrapper img  {
-     width:100%;
 
+
+   .btn {
+     width: 100%;
+     margin: 1%;
 
    }
- }
-
- .btn {
-   width: 100%;
-   margin: 1%;
-
  }
