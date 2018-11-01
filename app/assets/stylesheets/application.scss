@@ -36,6 +36,12 @@
        height: 100px;
        background-color: rgba(34, 49, 52, 0.7)
  }
+
+ .blogs-login h5{
+   color: white;
+   position: fixed;
+   right:0px;
+ }
  @media all and (max-width: 1000px) {
    .lesson {
      width: 50%;

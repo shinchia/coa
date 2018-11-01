@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
-  get 'inquiries/index'
-  get 'inquiries/confirm'
-  get 'inquiries/complete'
-  get 'inquiries', to: 'inquiries#index'
+  get 'inquiries/index'=> 'inquiries#index'
   post 'inquiries/confirm', to: 'inquiries#confirm'
   post 'inquiries/complete', to: 'inquiries#complete'
 
