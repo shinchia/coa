@@ -6,9 +6,10 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-  background-image: url("/plane-1632598.jpg");
+  background-image: url("/plane-1632598.png");height: 100%;width: 100%;
   background-attachment: fixed;
   background-size: cover;
+
 
 }
 
@@ -21,32 +22,33 @@ a {
 }
 
 .container {
-  max-width: 1170px;
   width: 100%;
-  padding: 0 15px;
+  padding: 0 10%;
   margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 200px 0 500px 0;
   color: white;
   text-align: center;
-  background-color: rgba(1, 1, 1, 0.5)
+  margin: 15%;
+}
+
+.top-wrapper img{
+  height: 30%;width: 80%;
+
+
 }
 
 .top-wrapper h1 {
   opacity: 0.7;
-  font-size: 45px;
+  font-size: 20%;
   letter-spacing: 5px;
+
 }
 
-.top-wrapper p {
-  opacity: 0.7;
-}
 
 .btn-wrapper {
   text-align: center;
-  margin: 20px 0;
 }
 
 .btn-wrapper p {
@@ -55,6 +57,7 @@ a {
 
 .signup {
   background-color: #239b76;
+
 }
 
 .facebook {
@@ -73,7 +76,7 @@ a {
 }
 
 .btn {
-  padding: 8px 24px;
+  padding: 1% 1%;
   color: white;
   display: inline-block;
   opacity: 0.8;
@@ -86,14 +89,11 @@ a {
   opacity: 3;
 }
 
-.fa {
-  margin-right: 5px;
-}
 
 header {
-  height: 64px;
+  height: 8%;
   position:fixed;
-  top:0px;
+  top:0%;
   z-index: 1;
   width: 100%;
   background-color: rgba(1, 1, 1, 0.5)
@@ -102,38 +102,37 @@ header {
 
 .header-logo {
   float: left;
-  padding-left: px;
   color: white;
-  font-size: 22px;
-  line-height: 64px;
+  font-size: 20%;
+
+}
+
+.header-logo img{
+  height: 20%;width: 60%;
 }
 
 .header-logo a{
   color: white;
-  font-size: 22px;
+  font-size: 100%;
 }
 
 .header-menus {
   float: right;
-  padding-right: 20px;
+  padding-right: 0%;
 }
 
 .header-menus li {
   float: left;
-  line-height: 64px;
-  font-size: 13px;
+  font-size: 20%;
   color: white;
-  padding-left: 90px ;
+  margin: 5%;
 }
 
 .header-menus a {
-  font-size: 13px;
+  font-size: 30%;
   color: white;
 }
 
-.header-menus .fa {
-  padding-right: 5px;
-}
 
 .header-menus input[type="submit"] {
   padding: 0 20px;
