@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   font-family: 'Comic Sans MS';
@@ -154,22 +155,25 @@ header {
 
 
 .lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-
+  margin: 10%;
   text-align: center;
+  background-color: rgba(255,255,255,0.5);
+  width: 80%
+
 
 }
 
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: rgba(1, 1, 1, 1);;
+.component {
+  width: 50vw;
+  height: 50vh;
+  background: rgba(255, 0, 0, 0.25)
 }
+
 
 .heading h2 {
   font-weight: normal;
+
+
 }
 
 .lesson {
@@ -221,49 +225,11 @@ header {
   font-size: 14px;
 }
 
-.home-message {
 
-  position: absolute;
-  top:150px;left:100px;
-  float: left;
-}
-
-.home-message img{
-  height: 300px;width: 450px;
-}
-
-.home-message p{
-  color: white;
-  text-align: center;
-  padding: 0px 0px;
-
-}
-
-.home-message h2{
-  color: white;
-  text-align: center;
-}
-
-
-.home-sentence{
-  position: absolute;
-  top:100px;right: 20px;
-}
-
-.home-sentence h2{
-  color :white;
-  text-align: center;
-  background-color: rgba(1,1,1,0.5);
-}
-
-.home-sentence h3{
-  background-color: rgba(255,255,255,0.5);
-  width: 850px;
-}
 
 .text-line{
   background-color: rgba(255,255,255,0.5);
-  width: 1150px;
+  width: 80%
 }
 
 .header-logo img{

@@ -1,26 +1,49 @@
-.message {
+.home-message {
 
   position: relative;
-  top:150px;left:100px;
+  top:10%;left:auto;
+  margin: 5%;
   float: left;
 }
 
-.message img{
-  height: 300px;width: 450px;
+.home-message img{
+  height:30%;width: 30%;
 }
 
-.message p{
+.home-message p{
   color: white;
   text-align: center;
-  padding: 0px 0px;
-
-}
-
-.message h2{
-  color: white;
-  text-align: center;
-}
-
-.message-name{
+  width: 30%;
   background-color: rgba(1, 1, 1, 0.5)
+
+}
+
+.home-message h2{
+  color: white;
+  text-align: center;
+  width: 30%;
+  background-color: rgba(1, 1, 1, 0.5)
+}
+
+
+.home-sentence{
+  float: left;
+  position: absolute;
+  top:10%;right: 20px;
+}
+
+.home-sentence h2{
+  float: right;
+  color :white;
+  text-align: center;
+  background-color: rgba(1,1,1,0.5);
+  width: 60%;
+}
+
+.home-sentence h3{
+  float: right;
+  background-color: rgba(255,255,255,0.5);
+  width: 60%;
+  position: relative;
+
 }
