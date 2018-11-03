@@ -5,6 +5,7 @@
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
   <header>
@@ -38,8 +39,6 @@
       <li><%= link_to("contact", "/inquiries/index") %></li>
       <li><%= link_to("message", "/home/message") %></li>
       <li><%= link_to("新規登録", "/users/signup") %></li>
-      <li><%= link_to("ログイン", "/users/login") %></li>
-    </ul>
       <% end %>
   </header>
   <% if flash[:notice] %>

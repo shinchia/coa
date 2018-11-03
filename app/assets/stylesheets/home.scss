@@ -5,6 +5,16 @@
 }
 
 
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background-image: url("/plane-1632598.png");
+  background-attachment: fixed;
+  background-size: cover;
+
+
+}
+
 
 a {
   text-decoration: none;
@@ -224,5 +234,25 @@ header {
    width:200px;height: auto;
   position: fixed;
   top:1%;
+
+}
+
+@media all and (max-width: 660px) {
+
+    body {
+      margin: 0;
+      font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+
+  .top-wrapper {
+    margin: 30% 0% 0% 0%;
+    color: white;
+    text-align: center;
+  }
+
+  .btn{
+    width: 100%;
+    margin: 1%;
+  }
 
 }

@@ -15,15 +15,7 @@
  */
  /* タブレット向けレイアウト */
 
- body {
-   margin: 0;
-   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-   background-image: url("/plane-1632598.png");
-   background-attachment: fixed;
-   background-size: cover;
 
-
- }
 
 
  footer img {
@@ -52,14 +44,12 @@
  @media all and (max-width: 470px) {
 
 
+
  }
 
 
  @media all and (max-width: 1218px){
    .header-menus {
      display: none;
-
-
-
-}
+   }
 }
