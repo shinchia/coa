@@ -1,8 +1,11 @@
+
+
+
 .home-message {
 
   position: relative;
-  top:10%;left:auto;
-  margin: 5%;
+  top:20%;left:auto;
+  margin: 10% 0 0% 0;
   float: left;
 }
 
@@ -14,6 +17,7 @@
   color: white;
   text-align: center;
   width: 30%;
+  margin: 0% 0% 0% 0%;
   background-color: rgba(1, 1, 1, 0.5)
 
 }
@@ -22,6 +26,7 @@
   color: white;
   text-align: center;
   width: 30%;
+  margin: 0% 0% 0% 0%;
   background-color: rgba(1, 1, 1, 0.5)
 }
 
@@ -29,7 +34,7 @@
 .home-sentence{
   float: left;
   position: absolute;
-  top:10%;right: 20px;
+  top:10%;right: 0px;
 }
 
 .home-sentence h2{
@@ -45,5 +50,53 @@
   background-color: rgba(255,255,255,0.5);
   width: 60%;
   position: relative;
+
+}
+
+@media all and (max-width: 800px) {
+
+  .home-message {
+    top:20%;left:auto;
+    margin: 10% 0 0% 0;
+  }
+
+  .home-message img{
+    height:40%;width: 40%;
+    margin: 5% 30% 0% 30%;
+
+  }
+
+  .home-message p{
+  margin: 5% 30% 0% 30%;
+  width: 40%;
+  }
+
+  .home-message h2{
+    margin:0 30% 0% 30%;
+    width: 40%;
+
+  }
+
+
+  .home-sentence{
+    margin:45% 0% 0% 0%;
+  }
+
+  .home-sentence h2{
+    color :white;
+    text-align: center;
+    background-color: rgba(1,1,1,0.5);
+    width: 100%;
+    margin: 5% 0 0 0 ;
+    font-size: 18px;
+  }
+
+  .home-sentence h3{
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+
+  }
 
 }
