@@ -40,6 +40,30 @@
       <li><%= link_to("message", "/home/message") %></li>
       <li><%= link_to("新規登録", "/users/signup") %></li>
       <% end %>
+    </div>
+
+      <div id="nav-drawer">
+    <input id="nav-input" type="checkbox" class="nav-unshown">
+    <label id="nav-open" for="nav-input"><span></span></label>
+    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+    <div id="nav-content">
+      <% if @current_user %>
+      <ul>
+      <li><%= link_to(@current_user.name, "/users/#{@current_user.id}") %></li>
+      <li><%= link_to("投稿一覧", "/posts/index") %></li>
+      <li><%= link_to("新規投稿", "/posts/new") %></li>
+      <li><%= link_to("ユーザー一覧", "/users/index") %></li>
+      <li><%= link_to("ログアウト", "/users/logout", {method: :post}) %></li>
+      <% else %>
+      <li><%= link_to("COAとは", "/home/coa") %></li>
+      <li><%= link_to("Blog", "/blogs/index") %></li>
+      <li><%= link_to("Our Project", "/home/service") %></li>
+      <li><%= link_to("contact", "/inquiries/index") %></li>
+      <li><%= link_to("message", "/home/message") %></li>
+      <li><%= link_to("新規登録", "/users/signup") %></li>
+      <% end %>
+    </div>
+</div>
   </header>
   <% if flash[:notice] %>
   <div class="flash">
