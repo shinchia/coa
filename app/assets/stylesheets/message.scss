@@ -1,4 +1,9 @@
-
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background-image: url("/plane-1632598.png");
+  background-size: cover;
+  }
 
 
 .home-message {
@@ -7,6 +12,7 @@
   top:0%;left:auto;
   margin: 10% 0 0% 0;
   float: left;
+
 }
 
 .home-message img{
@@ -50,14 +56,13 @@
   background-color: rgba(255,255,255,0.5);
   width: 60%;
   position: relative;
-  margin: 0 0 50% 0
 
 }
 
 @media all and (max-width: 800px) {
 
   .home-message {
-    top:20%;left:auto;
+    top:20%;
     margin: 10% 0 0% 0;
   }
 
@@ -97,6 +102,7 @@
     width: 100%;
     margin: 0;
     font-size: 12px;
+    margin: 0 0 30% 0
 
   }
 

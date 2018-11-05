@@ -63,7 +63,7 @@
    height: 3px;/*線の太さ*/
    width: 25px;/*長さ*/
    border-radius: 3px;
-   background: #555;
+   background-color: skyblue;
    display: block;
    content: '';
    cursor: pointer;
@@ -99,11 +99,21 @@
    width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
    max-width: 330px;/*最大幅（調整してください）*/
    height: 100%;
-   background: #fff;/*背景色*/
+   background-color: skyblue;
    transition: .3s ease-in-out;/*滑らかに表示*/
    -webkit-transform: translateX(-105%);
    transform: translateX(-105%);/*左に隠しておく*/
  }
+
+#nav-content a{
+  color: white;
+  margin: 20%;
+  font-size: 20px;
+}
+
+#nav-content li{
+  margin: 10%;
+}
 
  /*チェックが入ったらもろもろ表示*/
  #nav-input:checked ~ #nav-close {
@@ -128,13 +138,42 @@
 }
 header{
   padding: 20px;
+  background-color: black;
 }
+.header-logo{
+   float: right;
+   height: 100px;
+ }
+
+.header-logo a{
+   width:100%;height:auto;
+   position: fixed;
+}
+
 .header-logo img{
-   width:200px;height: auto;
+   width:200px;height:auto;
    position: fixed;
    right:1%;
 }
+
 }
+
+@media screen and (max-width: 700px){
+  body{
+    background-image: none;
+    background-color:skyblue;
+  }
+
+  .home-message{
+    background-image: url("/plane-1632598.png");
+    background-size: cover;
+
+  }
+
+}
+
+
+
 
 @media screen and (min-width:1218px) {
   #nav-open {
