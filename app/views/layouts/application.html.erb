@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+  <div class = "cover">
   <header>
     <div class ="Blogs-menus">
       <% if @current_paper %>
@@ -23,7 +24,6 @@
       <div class="header-logo">
         <a href="/top"><<img src="/ロゴ＋文字1列.png"  alt="トップへ戻る" /></a>
       </div>
-    </div>
     <div class="header-menus">
       <% if @current_user %>
       <ul>
@@ -78,5 +78,6 @@
     </div>
     <div class = "blogs-login">
   <h5>  <%= link_to("権限者ログイン", "/papers/login") %></h5>
+</div>
 </div>
   </footer>

@@ -5,15 +5,7 @@
 }
 
 
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-  background-image: url("/plane-1632598.png");
-  background-attachment: fixed;
-  background-size: cover;
 
-
-}
 
 
 a {
@@ -302,11 +294,29 @@ header {
   margin: 0 0 0 0;
 
 }
+@media screen and (min-width: 700px) {
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background-image: url("/plane-1632598.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+}
 
 
 
 
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
+
+  body{
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    background-image: url("/397.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
 
   .top-wrapper img{
     height: auto;width: 100%;
