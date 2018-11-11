@@ -40,7 +40,6 @@ Rails.application.routes.draw do
   post "posts/:id/destroy" => "posts#destroy"
 
   get "/top" => "home#top"
-  get "home/coa" => "home#coa"
   get "home/service" => "home#service"
   get "home/message" => "home#message"
 end
