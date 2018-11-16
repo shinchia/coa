@@ -1,4 +1,18 @@
+<head>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
 <div class = "blog-show-wrapper">
+<div class="blogs-show-item">
+  <img src="<%= "/blog_sheets/#{@blog.sheet_name}" %>">
+  <p>
+    <% if @current_paper %>
+    <%= @blog.created_at %>
+    <%= link_to("編集", "/blogs/#{@blog.id}/edit") %>
+    <%= link_to("削除", "/blogs/#{@blog.id}/destroy", {method: "blog"}) %>
+    <% end %>
+  </p>
+</div>
+
   <div class = "blog-show-text">
     <h2>
       <%= @blog.content %>
@@ -7,14 +21,5 @@
       <%= simple_format(@blog.sentence)%>
     </h3>
   </div>
-  <div class="blogs-show-item">
-    <img src="<%= "/blog_sheets/#{@blog.sheet_name}" %>">
-    <p>
-      <% if @current_paper %>
-      <%= @blog.created_at %>
-      <%= link_to("編集", "/blogs/#{@blog.id}/edit") %>
-      <%= link_to("削除", "/blogs/#{@blog.id}/destroy", {method: "blog"}) %>
-      <% end %>
-    </p>
-  </div>
+
 </div>

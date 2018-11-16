@@ -1,5 +1,6 @@
+<div class="w">
 <div class="blogs-wrapper">
-  <div class="heading">
+  <div class="blog-wrapper">
     <% @blogs.each do |blog| %>
     <div class="blogs-right">
       <img src="<%= "/blog_sheets/#{blog.sheet_name}" %>">
@@ -8,7 +9,6 @@
       </div>
     </div>
     <% end %>
-
   </div>
 </div>
 </div>
