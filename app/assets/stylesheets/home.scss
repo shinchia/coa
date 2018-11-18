@@ -411,3 +411,60 @@ body {
 
 
 }
+
+@media screen and (max-width: 1218px){
+  .header-menus {
+    display: none;
+}
+header{
+  padding: 20px;
+  background-color: black;
+}
+.header-logo{
+   float: right;
+   height: 100px;
+ }
+
+.header-logo a{
+   width:100%;height:auto;
+   position: fixed;
+}
+
+.header-logo img{
+   width:200px;height:auto;
+   position: fixed;
+   right:1%;
+}
+
+}
+@media screen and (min-width: 700px) {
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif!important;
+  background-image: url("/plane-1632598.png")!important;
+  background-attachment: fixed!important;
+  background-size: cover!important;
+}
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+  body{
+    margin: 0!important;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif!important;
+    background-image: url("/397.jpg")!important;
+    background-attachment: fixed!important;
+    background-size: cover!important;
+
+  }}
+
+
+
+@media screen and (min-width:1218px) {
+  #nav-open {
+    display:none;
+  }
+}
