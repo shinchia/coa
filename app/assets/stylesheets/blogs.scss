@@ -54,9 +54,39 @@ background-color: rgba(255, 255, 255, 0.5);
 }
 
 // show
+.blog-show-text{
+  color: white;
+  margin: 10% 0 0 3%;
+  text-align: center;
+  }
+
+  .blogs-show-item img{
+    text-align: center;
+    height: 20%;width: 50%;
+    float: right;
+
+  }
+
+  .blog-show-text h2 {
+    width: 48%;
+    color: white;
+    text-align: center;
+    background-color: rgba(1,1,1,0.3)
+  }
+
+  .blog-show-text h3 {
+    width: 48%;
+  color: white;
+  background-color: rgba(1,1,1,0.3)
 
 
-@media screen and (max-width: 800px){
+  }
+
+
+
+
+
+@media screen and (max-width: 700px){
 
   .blog-show-wrapper{
     margin: 8% 0 0 0;
@@ -67,14 +97,14 @@ background-color: rgba(255, 255, 255, 0.5);
     width:100%;
     color: white;
     text-align: center;
-
+    margin: 0 0 0 0;
     }
+
+
   .blogs-show-item img{
     text-align: center;
-    height: 20%;width: 100%;
+    height: 10%;width: 100%;
   }
-
-
 
 
     .blog-show-text h2 {
